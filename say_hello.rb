@@ -9,7 +9,7 @@ def say_hello(name, language = "Ruby Progammer")
   puts "Hello #{langauge}!"
 end 
 
-say_hello(langauge)
+say_hello(language)
 
 
 
