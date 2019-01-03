@@ -3,7 +3,7 @@ def say_hello(name)
   puts "Hello #{name}!"
 end 
 
-say_hello("hello")
+say_hello(#{name})
 
 def say_hello(name, language = "Ruby Progammer") 
   puts "Hello #{langauge}!"
